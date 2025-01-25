@@ -52,6 +52,12 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
+}
+
+li.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
 }
 
 .remove-btn {
